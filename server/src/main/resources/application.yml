@@ -1,10 +1,10 @@
 server:
-  port: 8080
+  port: 10905
 
 spring:
   application:
-    name: ${env}-templeta-server
+    name: server
   profiles:
-    active: ${env:dev}
+    active: dev
 
 
