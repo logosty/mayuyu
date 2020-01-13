@@ -24,7 +24,7 @@ public class GatewayController {
   @GetMapping(value = "/hello")
   public void test() {
     printBegin();
-    log.info("hello, mayuyu");
+    log.info("hello, mayuyu!");
     printEnd();
   }
 
