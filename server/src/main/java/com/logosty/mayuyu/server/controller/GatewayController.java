@@ -22,10 +22,12 @@ public class GatewayController {
   }
 
   @GetMapping(value = "/hello")
-  public void test() {
+  public String test() {
+    String str = "hello, mayuyu!";
     printBegin();
-    log.info("hello, mayuyu!");
+    log.info(str);
     printEnd();
+    return str;
   }
 
 }
