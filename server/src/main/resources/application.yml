@@ -8,3 +8,6 @@ spring:
     active: dev
 
 
+url:
+  developerList: http://devsvc.jpushoa.com/iportal-dev/v1/dev/list
+  crm: http://iportal.jpushoa.com/crm/customer_list_api?search_input=&status_id=-1&sale_user_id=-1&sale_user_area_id=-1&business_id=-1&customer_type=-1&customer_update=-1&customer_from=-1&filter_check_status_id=-1&limit=50&offset=0&order_by=created_desc&is_public_filter=0

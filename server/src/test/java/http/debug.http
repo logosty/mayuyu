@@ -1,0 +1,21 @@
+### !!!! test
+GET {{host}}/gateway/testCSV
+Content-Type: application/json
+
+### !!!! test
+GET {{host}}/gateway/hello
+Content-Type: application/json
+
+### !!!! test
+GET {{host}}/actuator/health
+Content-Type: application/json
+
+###
+GET {{host}}/gateway/doWork
+Content-Type: application/json
+
+
+###
+
+
+
